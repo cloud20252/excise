@@ -26,9 +26,9 @@ import org.springframework.web.cors.CorsConfigurationSource;
 
 import java.util.Arrays;
 import java.util.Collections;
-
 @Configuration
 @EnableWebSecurity
+@EnableScheduling
 public class AppConfig {
 
     @Autowired
@@ -38,7 +38,9 @@ public class AppConfig {
     JwtConfig jwtConfig;
 
 
+
     @Autowired
+    @Lazy
     private JwtService jwtService;
 
     @Bean
