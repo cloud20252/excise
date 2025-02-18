@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "CarResell API'S", version = "1.0", description = "Api Documentation"))
+@OpenAPIDefinition(info = @Info(title = "excise", version = "1.0", description = "Api Documentation"))
 public class JwtWithSpringSecurityApplication {
 
 	public static void main(String[] args) {
